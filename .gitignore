@@ -1,0 +1,56 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model outputs and generated files
+model_output/
+outputs/
+temp/
+tmp/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Local configuration
+*.local
+
+# Optional: Uncomment if you don't want to push ML model files
+# *.h5
+# *.keras
+# *.pt
+# *.pth
+# *.pkl
+# *.joblib
